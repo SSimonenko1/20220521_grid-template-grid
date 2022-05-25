@@ -355,7 +355,9 @@ template {
 /* sm */
 /* xs */
 /* xx */
-* {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
